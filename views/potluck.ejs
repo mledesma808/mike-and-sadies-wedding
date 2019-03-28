@@ -1,3 +1,27 @@
-<h1>Pot Luck Sign Up</h1>
-<p>If you would like to bring an item to the lunch time meal after the ceremony, please fill out the form below.</p>
-</table>
+<div class="heading heading__potluck">
+    <img src="images/icons/potluck.png" alt="Picnic basket">
+    <h1>Sadie and Michael's</h1>
+    <h2>Wedding Day</h2>
+    <h3>Potluck Sign-Up</h3>
+</div>
+<div class="main">
+    <p>If you would like to bring an item to the lunch time meal after the ceremony, please fill out the form below.</p>
+    <div class="rc-contact-page__container">
+        <div class="rc-contact-page__form" id="rc-contact-form-container">
+            <form name="sentMessage" id="rc-contact-form" action="/contact" method="POST" role="form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name" id="name" required="" data-validation-error-msg="Please enter your name." name="name">                   
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Dish Category - Side Dish, Dessert, etc." id="dishcategory" required="" data-validation-error-msg="Please enter the category of the dish." name="dishcategory">                   
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name of Dish" id="dishname" required="" data-validation-error-msg="Please enter the name of your dish." name="dishname">                   
+                </div>
+
+                <div class="g-recaptcha" data-sitekey="6Le_uGIUAAAAADWKPv7JmnXkhy0dJDJhIfc1W7s4" required=""><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Le_uGIUAAAAADWKPv7JmnXkhy0dJDJhIfc1W7s4&amp;co=aHR0cDovL3d3dy5ydXRoc2NvbGxpbnMuY29tOjgw&amp;hl=en&amp;v=v1552285980763&amp;size=normal&amp;cb=5q7ol73eivzh" width="304" height="78" role="presentation" name="a-e9einxz0y5w" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" required="required" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div>
+                <button id="rc-contact-form-btn" type="submit" class="btn btn-lg rc-contact__btn">Send</button>
+            </form>
+        </div>
+    </div>
+</div>

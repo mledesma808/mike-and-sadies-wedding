@@ -25,8 +25,8 @@ app.get('/directions', function(rec, res) {
 	res.render('directions');
 });
 
-app.get('/reservations', function(rec, res) {
-	res.render('reservations');
+app.get('/lodging', function(rec, res) {
+	res.render('lodging');
 });
 
 app.get('/timeline', function(rec, res) {
