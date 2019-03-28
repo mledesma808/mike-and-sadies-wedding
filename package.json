@@ -1,0 +1,35 @@
+{
+  "name": "mike-and-sadies-wedding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify public/app.js -o public/bundle.js",
+    "build": "browserify public/app.js -o public/bundle.js",
+    "start": "npm run watch & nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmarzu/mike-and-sadies-wedding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmarzu/mike-and-sadies-wedding/issues"
+  },
+  "homepage": "https://github.com/jmarzu/mike-and-sadies-wedding#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.3.1",
+    "bootstrap-css": "^4.0.0-alpha.5",
+    "browserify": "^16.2.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "fs": "0.0.1-security",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "path": "^0.12.7",
+    "watchify": "^3.11.1"
+  }
+}
